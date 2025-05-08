@@ -9,55 +9,49 @@ interface Member {
 
 const members: Member[] = [
   {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1689911796/about/members/Sean_zw89ou.png",
-    name: "Sean Kim",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697116/Our_Team_Sean_o6tnq4.png",
+    name: "Kim HyeonGyu",
     profession: "Director",
   },
   {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1688548312/about/members/tien_zckard.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697114/Our_Team_Lee_vmzuvj.png",
+    name: "Lee Hyunjoo",
+    profession: "Project Manager",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697114/Our_Team_c_Tien_hergj6.png",
     name: "Trần Thủy Tiên",
-    profession: "Office Manager",
+    profession: "Head",
   },
   {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1688548310/about/members/huy_tzkbcl.png",
-    name: "Nguyễn Đức Huy",
-    profession: "Full-stack Dev/Lecturer",
-  },
-  {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1688548311/about/members/minh_lkf4wf.png",
-    name: "Nguyễn Văn Minh",
-    profession: "Java Dev/Lecturer",
-  },
-  {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1688548311/about/members/phuc_eucbts.png",
-    name: "Nguyễn Tuấn Phúc",
-    profession: "Developer/Mentor",
-  },
-
-  {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1688548311/about/members/nhu_okfmwy.png",
-    name: "Võ T. Quỳnh Như",
-    profession: "Marketer",
-  },
-  {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1689911797/about/members/Trang_1_hmkftq.png",
-    name: "Lê Quỳnh Trang",
-    profession: "Korean Interpreter",
-  },
-  {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1688548311/about/members/loc_v3amar.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Loc_naycyh.png",
     name: "Nguyễn Phước Lộc",
-    profession: "Editor",
+    profession: "Leader",
   },
   {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1689911796/about/members/Nhi_curfs7.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Nhi_wkmvsi.png",
     name: "Đặng Vân Nhi",
     profession: "Designer",
   },
   {
-    src: "https://res.cloudinary.com/dbscqlwl7/image/upload/v1689911796/about/members/Ha%CC%82n_nvromd.png",
-    name: "Trần Ngọc Hân",
-    profession: "Content Marketer",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697116/Our_Team_anh_Tien_lmmyiq.png",
+    name: "Thái Hoàng Tiến",
+    profession: "Developer",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697116/Our_Team_Nhu_ebbqre.png",
+    name: "Nguyễn Thị Nguyệt Như",
+    profession: "UX/UI Designer",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Hang_asbj9k.png",
+    name: "Nguyễn Vũ Thái Hằng",
+    profession: "HR",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Phuong_iqj6qi.png",
+    name: "Nguyễn Việt Phương",
+    profession: "Developer",
   },
 ];
 
@@ -84,7 +78,7 @@ export default function Members() {
             title="Đội ngũ của chúng tôi"
             subtitle="Mỗi mảnh ghép của LIKELION đều làm việc chăm chỉ, đam mê và nhiệt huyết cống hiến cho giáo dục. Chúng tôi đều nỗ lực để phục vụ cho sứ mệnh “Mang lập trình tiếp cận mọi đối tượng”. "
           />
-          <div className="grid gap-8 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center">
+          <div className="grid gap-8 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 place-items-center">
             {members.map((member) => (
               <MemberCard key={member.name} {...member} />
             ))}
