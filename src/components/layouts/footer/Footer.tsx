@@ -1,7 +1,7 @@
-import Logo from "../../Logo";
+import Icons from "@/components/Icons";
 import { Clock, Mail, MapPin, PhoneCall } from "lucide-react";
 import Link from "next/link";
-import Icons from "@/components/Icons";
+import Logo from "../../Logo";
 
 export default function Footer() {
   return (
@@ -39,12 +39,9 @@ export default function Footer() {
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin className="shrink-0" />
-                  <a
-                    href="https://g.co/kgs/aXuQ3mB"
-                    target="_blank"
-                  >
-                    Tầng 11, Tòa nhà Cobi Tower II
-2-4 Đường số 8, Phường Tân Phú, Quận 7, TP.HCM
+                  <a href="https://g.co/kgs/aXuQ3mB" target="_blank">
+                    Tầng 11, Tòa nhà Cobi Tower II 2-4 Đường số 8, Phường Tân
+                    Phú, Quận 7, TP.HCM
                   </a>
                 </div>
               </div>
@@ -100,7 +97,7 @@ export default function Footer() {
       <div className="border-t border-white/30">
         <div className="container">
           <div className="py-4 text-sm text-center text-white/80">
-            Copyright @ 2023, LIKELION Co., Ltd
+            Copyright @ 2025, LIKELION Co., Ltd
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
-import SectionHeading from "../SectionHeading";
-import CoursesAnimated from "./CoursesAnimated";
-import CourseCard from "./CourseCard";
 import data from "@/data/data.json";
+import SectionHeading from "../SectionHeading";
+import CourseCard from "./CourseCard";
+import CoursesAnimated from "./CoursesAnimated";
 
 export default function Courses() {
   const courses = data["courses"];
