@@ -14,14 +14,14 @@ const members: Member[] = [
     profession: "Director",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697114/Our_Team_Lee_vmzuvj.png",
-    name: "Lee Hyunjoo",
-    profession: "Project Manager",
-  },
-  {
     src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697114/Our_Team_c_Tien_hergj6.png",
     name: "Trần Thủy Tiên",
     profession: "Head",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697114/Our_Team_Lee_vmzuvj.png",
+    name: "Lee Hyunjoo",
+    profession: "Project Manager",
   },
   {
     src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Loc_naycyh.png",
