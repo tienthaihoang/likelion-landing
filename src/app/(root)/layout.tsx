@@ -1,7 +1,6 @@
 import Footer from "@/components/layouts/footer/Footer";
 import Navbar from "@/components/layouts/navbar/Navbar";
-import NotionPopup from "@/components/popups/NotionPopup";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 export default function RootLayout({
   children,
@@ -18,7 +17,7 @@ export default function RootLayout({
         {dialog}
       </main>
       <Footer />
-      <NotionPopup />
+      {/* <NotionPopup /> */}
     </div>
   );
 }
