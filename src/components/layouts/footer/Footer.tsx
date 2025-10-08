@@ -40,8 +40,8 @@ export default function Footer() {
                 <div className="flex items-start gap-4">
                   <MapPin className="shrink-0" />
                   <a href="https://g.co/kgs/aXuQ3mB" target="_blank">
-                    Tầng 11, Tòa nhà Cobi Tower II 2-4 Đường số 8, Phường Tân
-                    Phú, Quận 7, TP.HCM
+                    Phòng 1101, Tầng 11, Tòa nhà Cobi Tower II, 2-4 Đường số 8, Phường Tân
+                    Phú, TP.HCM
                   </a>
                 </div>
               </div>
@@ -60,6 +60,9 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link href="/contact">Liên hệ</Link>
+                </li>
+                <li>
+                  <Link href="/privacy">Chính sách bảo mật</Link>
                 </li>
               </ul>
             </div>

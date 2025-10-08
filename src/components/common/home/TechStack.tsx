@@ -55,10 +55,10 @@ const techStackOptions: TechStackOptions = [
     title: "Docker",
     icon: Icons.docker,
   },
-  {
-    title: "Java",
-    icon: Icons.java,
-  },
+  // {
+  //   title: "Java",
+  //   icon: Icons.java,
+  // },
   {
     title: "Spring Boot",
     icon: Icons.spring,
