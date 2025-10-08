@@ -62,7 +62,7 @@ export default function Footer() {
                   <Link href="/contact">Liên hệ</Link>
                 </li>
                 <li>
-                  <Link href="/privacy">Chính sách bảo mật</Link>
+                  <Link href="/privacy-policy">Chính sách bảo mật</Link>
                 </li>
               </ul>
             </div>
