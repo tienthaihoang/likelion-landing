@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const logo = {
-  black: "/logo-black.svg",
+  black: "/logo-orange.svg",
   white: "/logo.svg",
 };
 
