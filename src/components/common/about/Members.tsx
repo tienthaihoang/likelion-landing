@@ -9,44 +9,54 @@ interface Member {
 
 const members: Member[] = [
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697116/Our_Team_Sean_o6tnq4.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839835/Sean_izgsqm.png",
     name: "Kim HyeonGyu",
     profession: "Director",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697114/Our_Team_c_Tien_hergj6.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Thuy-Tien_m49pj8.png",
     name: "Trần Thủy Tiên",
     profession: "Head",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Loc_naycyh.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839836/Phuoc-Loc_gxs5s4.png",
     name: "Nguyễn Phước Lộc",
     profession: "Leader",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Nhi_wkmvsi.png",
-    name: "Đặng Vân Nhi",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839836/My-Nguyen_hdj7o3.png",
+    name: "Tô Phạm Mỹ Nguyên",
     profession: "Designer",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697116/Our_Team_anh_Tien_lmmyiq.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839836/Viet-Phuong_nq54cp.png",
+    name: "Nguyễn Việt Phương",
+    profession: "Developer",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839836/Hoang-Tien_actoo5.png",
     name: "Thái Hoàng Tiến",
     profession: "Developer",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697116/Our_Team_Nhu_ebbqre.png",
-    name: "Nguyễn Thị Nguyệt Như",
-    profession: "UX/UI Designer",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Van-Oanh_kcvym6.png",
+    name: "Trần Văn Oanh",
+    profession: "Marketing",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Hang_asbj9k.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839836/Minh-Thu_olwra3.png",
+    name: "Nguyễn Thị Minh Thư",
+    profession: "Marketing",
+  },
+  {
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Thai-Hang_l2gu84.png",
     name: "Nguyễn Vũ Thái Hằng",
     profession: "HR",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1746697115/Our_Team_Phuong_iqj6qi.png",
-    name: "Nguyễn Việt Phương",
-    profession: "Developer",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Bao-Tran_sw0taf.png",
+    name: "Dương Bảo Trân",
+    profession: "HR Assistant",
   },
 ];
 

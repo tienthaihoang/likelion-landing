@@ -35,17 +35,17 @@
       "calendar": [
         {
           "title": "Khoá Front-end",
-          "start_date": "27/12/2023 (Dự kiến)",
-          "duration": "12 tuần / 36 buổi",
-          "schedule": "Thứ 2 - 4 - 6 / 18:30 - 21:30",
-          "platform": "Google Meet"
+          "start_date": "Lịch học sẽ cập nhật sau",
+          "duration": "Cập nhật sau",
+          "schedule": "Cập nhật sau",
+          "platform": "Cập nhật sau"
         }
       ],
       "promotions": [
         {
           "prefix": "Early Bird",
           "value": "-10%",
-          "postfix": "HSSV đăng ký từ 8/12 - 22/12"
+          "postfix": "HSSV đăng ký sớm"
         },
         {
           "prefix": "Giảm thêm",
@@ -257,17 +257,17 @@
       "calendar": [
         {
           "title": "Python cho Data Analysis",
-          "start_date": "04/11/2023 (Dự kiến)",
-          "duration": "12 tuần / 36 buổi",
-          "schedule": "Thứ 2 - 4 - 6 / 18:30 - 21:30",
-          "platform": "Google Meet"
+         "start_date": "Lịch học sẽ cập nhật sau",
+          "duration": "Cập nhật sau",
+          "schedule": "Cập nhật sau",
+          "platform": "Cập nhật sau"
         }
       ],
       "promotions": [
         {
           "prefix": "Early Bird",
           "value": "-10%",
-          "postfix": "HSSV đăng ký từ 13/11 - 27/11"
+          "postfix": "HSSV đăng ký sớm"
         },
         {
           "prefix": "Giảm thêm",
@@ -471,17 +471,17 @@
       "calendar": [
         {
           "title": "Back-end Java",
-          "start_date": "04/11/2023 (Dự kiến)",
-          "duration": "12 tuần / 36 buổi",
-          "schedule": "Thứ 2 - 4 - 6 / 18:30 - 21:30",
-          "platform": "Google Meet"
+          "start_date": "Lịch học sẽ cập nhật sau",
+          "duration": "Cập nhật sau",
+          "schedule": "Cập nhật sau",
+          "platform": "Cập nhật sau"
         }
       ],
       "promotions": [
         {
           "prefix": "Early Bird",
           "value": "-10%",
-          "postfix": "HSSV khi đăng ký từ 13/11 - 27/11"
+          "postfix": "HSSV đăng ký sớm"
         },
         {
           "prefix": "Giảm thêm",
@@ -787,10 +787,10 @@
       "calendar": [
         {
           "title": "Back-end Java Advanced",
-          "start_date": "27/12/2023",
-          "duration": "12 tuần / 36 buổi",
-          "schedule": "Thứ 2 - 4 - 6 / 18:30 - 21:30",
-          "platform": "Google Meet"
+          "start_date": "Lịch học sẽ cập nhật sau",
+          "duration": "Cập nhật sau",
+          "schedule": "Cập nhật sau",
+          "platform": "Cập nhật sau"
         }
       ],
       "price": 8000000,
@@ -808,7 +808,7 @@
         {
           "prefix": "Early Bird",
           "value": "-10%",
-          "postfix": "khi đăng ký từ 8/12 - 22/12"
+          "postfix": "khi đăng ký sớm"
         },
         {
           "prefix": "Giảm thêm",
@@ -858,12 +858,12 @@
       "calendar": [
         {
           "title": "Bootcamp 6",
-          "start_date": "Dự kiến mở lớp khi đủ số lượng",
-          "duration": "3 tháng / 120 buổi học",
-          "schedule": "Thứ 2 đến Thứ 6 / 9:00 - 17:00",
+        "start_date": "Lịch học sẽ cập nhật sau",
+          "duration": "Cập nhật sau",
+          "schedule": "Cập nhật sau",
           "location": {
-            "name": "Y5 Office",
-            "address": "135 Hai Bà Trưng, Quận 1, TP. HCM"
+            "name": "Cập nhật sau",
+            "address": ""
           }
         }
       ],
