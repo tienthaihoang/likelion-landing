@@ -28,7 +28,7 @@ export default function Home() {
       <div className="pb-20 space-y-16 sm:space-y-32">
         <Banner />
         <Courses />
-        <Teachers />
+        {/* <Teachers /> */}
         <TechStack />
         <Testimonials />
         <div>

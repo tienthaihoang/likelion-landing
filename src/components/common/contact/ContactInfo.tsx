@@ -90,7 +90,7 @@ const contacts: Contact[] = [
     ),
     label: "Office",
     value:
-      "Tầng 11, Tòa nhà Cobi Tower II 2-4 Đường số 8, Phường Tân Phú, Quận 7, TP.HCM",
+      "Tầng 11, Tòa nhà Cobi Tower II 2-4 Đường số 8, Phường Tân Mỹ, Quận 7, TP.HCM",
     href: "https://g.co/kgs/aXuQ3mB",
   },
   {
