@@ -41,12 +41,12 @@ const members: Member[] = [
   {
     src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Van-Oanh_kcvym6.png",
     name: "Trần Văn Oanh",
-    profession: "Marketing",
+    profession: "Marketer",
   },
   {
     src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839836/Minh-Thu_olwra3.png",
     name: "Nguyễn Thị Minh Thư",
-    profession: "Marketing",
+    profession: "Marketer",
   },
   {
     src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Thai-Hang_l2gu84.png",
