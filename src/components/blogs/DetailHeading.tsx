@@ -7,7 +7,7 @@ export default function DetailHeading({
   thumbnail_desktop = "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
   thumbnail_mobile = "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
   readingTime = 0,
-  publishOn = Date.now(),
+  publishOn = Math.floor(Date.now() / 1000),
 }: IBlog) {
   return (
     <header className="mb-12">
