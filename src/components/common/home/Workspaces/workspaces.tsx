@@ -32,4 +32,20 @@ export const workspaceOptions: WorkspaceOption[] = [
     title: "FPT",
     src: "/assets/workspaces/fpt.svg",
   },
+  {
+    title: "Shinhan Bank",
+    src: "/assets/workspaces/shinhan.svg",
+  },
+  {
+    title: "MoMo",
+    src: "/assets/workspaces/momo.svg",
+  },
+  {
+    title: "Shopee",
+    src: "/assets/workspaces/shopee.svg",
+  },
+  {
+    title: "Naver",
+    src: "/assets/workspaces/naver.svg",
+  },
 ];
