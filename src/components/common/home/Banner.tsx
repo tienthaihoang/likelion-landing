@@ -18,7 +18,7 @@ export default function Banner() {
           preload="auto"
         >
           <source
-            src="https://res.cloudinary.com/do6l2audn/video/upload/v1768962835/Hero-video-2_xvrmg2.mp4"
+            src="https://res.cloudinary.com/do6l2audn/video/upload/v1768893074/Hero_Video_rgu2tz.mp4"
             type="video/mp4"
           />
         </video>
