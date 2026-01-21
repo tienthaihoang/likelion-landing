@@ -32,6 +32,7 @@
         "from": "#37C157",
         "to": "#9AE2A6"
       },
+      "backgroundImage": "https://res.cloudinary.com/do6l2audn/image/upload/v1768902664/course-1_pzfvfh.png",
       "calendar": [
         {
           "title": "Khoá Front-end",
@@ -254,6 +255,7 @@
         "from": "#3FA8EF",
         "to": "#0068AF"
       },
+      "backgroundImage": "https://res.cloudinary.com/do6l2audn/image/upload/v1768902664/course-2_ddp4g8.png",
       "calendar": [
         {
           "title": "Python cho Data Analysis",
@@ -468,6 +470,7 @@
         "from": "#FFA4A4",
         "to": "#DD4B3C"
       },
+      "backgroundImage": "https://res.cloudinary.com/do6l2audn/image/upload/v1768902664/course-3_yfgpg7.png",
       "calendar": [
         {
           "title": "Back-end Java",
@@ -651,6 +654,7 @@
         "from": "#b63426",
         "to": "#5f0404"
       },
+      "backgroundImage": "https://res.cloudinary.com/do6l2audn/image/upload/v1768902664/course-4_mijafy.png",
       "subtitle": "Trở thành key member đảm nhiệm phần việc cốt lõi trong các dự án quan trọng.",
       "tagline": "Trở thành key member đảm nhiệm phần việc cốt lõi trong các dự án quan trọng.",
       "techs": [
@@ -854,6 +858,7 @@
         "from": "#FFAE6C",
         "to": "#FF7100"
       },
+      "backgroundImage": "https://res.cloudinary.com/do6l2audn/image/upload/v1768902664/course-5_wkj200.png",
       "youtubeId": "duAOTul9UNs",
       "calendar": [
         {

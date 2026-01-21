@@ -10,22 +10,12 @@ export default function AchievementsAnimated({
 }) {
   return (
     <motion.div
-      className="flex flex-col items-center justify-between gap-12 md:gap-6 md:flex-row"
-      initial={{
-        opacity: 0,
-        y: 50,
-      }}
-      whileInView={{
-        opacity: 1,
-        y: 0,
-      }}
+      className="relative grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-0"
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{
-        delay: 0.2,
-        duration: 0.4,
-      }}
-      exit={{
-        opacity: 0,
-        y: 50,
+        duration: 0.5,
+        ease: "easeOut",
       }}
       viewport={{ once: true }}
     >

@@ -1,3 +1,4 @@
+import Achievements from "@/components/common/home/Achievements";
 import Blogs from "@/components/common/home/Blogs";
 import BusinessPartners from "@/components/common/home/BusinessPartners";
 import Events from "@/components/common/home/Events";
@@ -27,8 +28,8 @@ export default function Home() {
       <h1 className="sr-only">{siteConfig.title}</h1>
       <div className="pb-20 space-y-16 sm:space-y-32">
         <Banner />
+        <Achievements/>
         <Courses />
-        {/* <Teachers /> */}
         <TechStack />
         <Testimonials />
         <div>

@@ -1,6 +1,7 @@
-import CountUp from "react-countup";
+"use client";
+
 import { Code2, LucideIcon, Star, Users } from "lucide-react";
-import AchievementsAnimated from "./AchievementsAnimated";
+import CountUp from "react-countup";
 
 const achievements: Achievement[] = [
   {
@@ -13,10 +14,10 @@ const achievements: Achievement[] = [
   },
   {
     icon: Code2,
-    label: "Năm kinh nghiệm giáo dục",
+    label: "Kinh nghiệm giáo dục",
     count: 10,
     startCount: 0,
-    suffix: "",
+    suffix: " năm",
     duration: 5,
   },
   {
@@ -47,34 +48,39 @@ function AchievementCard({
   duration = 5,
 }: Achievement) {
   return (
-    <div className="flex items-center w-full max-w-xs gap-4 md:text-center md:flex-col lg:flex-row lg:text-start">
-      <div className="flex items-center justify-center w-[80px] aspect-[1/1] bg-[#fff3ea] rounded-full">
-        <Icon stroke="#ff7100" size={32} />
-      </div>
-
-      <div className="flex flex-col gap-1">
-        <CountUp
-          start={startCount}
-          end={count}
-          duration={duration}
-          suffix={suffix}
-          className="text-3xl font-bold"
-        />
-
-        <h3 className="text-lg text-muted-foreground md:text-base">{label}</h3>
-      </div>
+    <div className="flex flex-col items-center justify-center gap-3 md:gap-1">
+      <CountUp
+        start={startCount}
+        end={count}
+        duration={duration}
+        suffix={suffix}
+        className="text-4xl md:text-6xl font-extrabold text-[#FF6B00]"
+      />
+      <span className="text-medium md:text-2xl font-medium text-muted-foreground text-[#1C1B1AE5]">
+        {label}
+      </span>
     </div>
   );
 }
 
 export default function Achievements() {
   return (
-    <section className="container py-20 bg-white border-b md:py-10 md:shadow-lg md:rounded-2xl md:border-none">
-      <AchievementsAnimated>
-        {achievements.map((achievement) => (
-          <AchievementCard key={achievement.label} {...achievement} />
+    <section className="container py-12 bg-white">
+      <h1 className="mb-10 text-3xl font-bold md:text-4xl text-center">
+        Tại sao nên chọn <span className="text-[#FF6B00]">LIKELION</span>?
+      </h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-3">
+        {achievements.map((achievement, index) => (
+          <div key={achievement.label} className="relative flex justify-center">
+            <AchievementCard {...achievement} />
+
+            {index !== achievements.length - 1 && (
+              <span className="absolute right-0 hidden w-[3px] h-16 bg-[#1C1B1A80] md:block top-1/2 -translate-y-1/2" />
+            )}
+          </div>
         ))}
-      </AchievementsAnimated>
+      </div>
     </section>
   );
 }
