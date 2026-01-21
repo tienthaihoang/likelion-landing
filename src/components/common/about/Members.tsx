@@ -49,7 +49,7 @@ const members: Member[] = [
     profession: "Marketer",
   },
   {
-    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1767839837/Thai-Hang_l2gu84.png",
+    src: "https://res.cloudinary.com/do6l2audn/image/upload/v1768969066/Thai-Hang_xmtd9w.png",
     name: "Nguyễn Vũ Thái Hằng",
     profession: "HR",
   },
